@@ -1,0 +1,20 @@
+# Docker Compose file for Xv6
+# Usage: this file is used to build and run the Xv6 container.
+
+# To build the container, use the command: docker-compose build
+# To run the container, use the command: docker-compose up -d
+# To stop the container, use the command: docker-compose down
+# To connect to the container, use the command: 
+#       docker exec -it fri-xv6 /bin/bash 
+# OR    docker attach fri-xv6
+
+services:
+  fri-xv6:
+    container_name: fri-xv6
+    image: dejanjarc/fri-xv6
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+   
