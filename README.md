@@ -158,4 +158,4 @@ If needed, you can build the RISC-V toolchain by following the instructions in t
 ## Notes
 
 - Ensure Docker and Docker Compose are installed before proceeding. 
-- If there are any bugs you wish to report, [open an issue or do a pull request with your solution](https://github.com/dejanjarc/fri-xv6).
+- If there are any bugs you wish to report, [open an issue](https://github.com/dejanjarc/fri-xv6/issues) or do a [pull request with your solution](https://github.com/dejanjarc/fri-xv6/pulls).
