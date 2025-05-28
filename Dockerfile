@@ -24,6 +24,7 @@ RUN apt-get update && \
         libc6-dev \
         libncurses-dev \
         device-tree-compiler \
+        nano \
         sudo 
 
 RUN update-ca-certificates
